@@ -10,5 +10,9 @@ public class ProjectConfig {
         p.setName("KOKO");
         return p;
     }
+    @Bean
+    String hello(){
+        return "hello";
+    }
 
 }
